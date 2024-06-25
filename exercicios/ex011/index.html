@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagen Dinamica</h1>
+    <p>Tente abrir esse site em diversos tipo de dispositivos ou tente aumentar ou diminuir a resolucao do seu navegador.</p>
+    <picture>
+       
+         <source media="(max-width: 750px)" srcset="imagens/Foto-P.png" type="image/png">       
+        <source media="(max-width: 1050px)" srcset="imagens/Foto-M.png" type="image/png">
+        <img src="Imagens/Foto-G.png" alt="Imagen Flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5.</p>
+    <audio preload="auto" controls>
+        <source src="midia/twohearts.mp3" type="audio/mpeg">
+        <source src="midia/twohearts.ogg" type="audio/ogg">
+        <source src="midia/twohearts.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao tem suporte para reproduzir audio.<a href="midia/twohearts.mp3">Clique aqui</a> para baixar o audio</p>
+        
+
+
+    </audio>
+    
+</body>
+</html>

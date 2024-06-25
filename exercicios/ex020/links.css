@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*  SELETORES PERSONALISADOS
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = childrean (filho de algo)
+
+
+
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(112, 2, 2);
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+a::before {
+    content: "⇨ ";
+    font-size: 25px;
+
+
+}
+
+a::after {
+    content: " ⇦";
+    font-size: 25px;
+    
+}
+
+.especial{
+    background-color: aqua;
+
+}
+
+.especial::before{
+    content: "❤";
+
+}
+
+.especial::after{
+    content: "❤";
+}

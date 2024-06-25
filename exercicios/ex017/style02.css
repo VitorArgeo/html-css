@@ -1,0 +1,31 @@
+@charset "UTF-8" ;
+
+main{
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+    background-image: linear-gradient(to right ,rgba(177, 177, 253, 0.822),rgba(113, 113, 252, 0.774),rgba(96, 96, 247, 0.904));
+    border-radius: 20px;
+    box-shadow: 7px 17px 17px rgba(112, 112, 233, 0.267);
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+h1{
+    font: bolder 40px Arial, Verdana, serif;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.555);
+}
+
+h2{
+    font:bold 30px Arial, Verdana, serif;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.575);
+}
+
+p{
+    font:normal 16px Arial, Verdana, serif;
+    text-align: justify;
+    text-indent: 30px; /* Paragrafo */
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Devil" ;
+    src: url("fonts/DevilCandle.otf") format("opentype"),url("fonts/DevilCandle1.otf") format("truetype");
+    font-weight: normal;
+    font-size: normal;
+    /*
+    tipos de format()
+    - open type (otf)
+    - truetype (ttf)
+    - embedded-opentype 
+    -truetype-aat (apple advance typegraphy)
+    - svg 
+    */
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+h1{
+    font-family: 'Devil';
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+
+}

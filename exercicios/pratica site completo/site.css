@@ -1,0 +1,91 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family:"idroid";
+    src: url(fontes/idroid.otf);
+}
+
+html{
+    background-color: #f7c2907a;
+}    
+
+body{
+    margin: 0% 0% 1% 0%;
+    padding: 0%;
+}
+#titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;    
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    padding: 1% 0% 0% 0%;
+    margin: 0%
+    
+}
+#subtitulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.555);
+    padding: 1% 0% 1% 0%;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffafa;
+    padding-bottom: 1%;
+    margin: 0%;
+    background-image: linear-gradient(to bottom,#3ACF7C,#31AD68,#298F56,#227747,#1A6038,#1A5C38);
+}
+ 
+header>nav>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    border-radius: 25px;
+    
+
+
+}
+header>nav>a:hover{
+    color: #45a771;
+    background-color: #3acf7d5e;
+
+}
+
+main{       
+    padding: 1px 1px 1px 1px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.267);   
+    
+    
+}
+
+main>h1{
+    font-family: "idroid";
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1A5C38;
+    text-align: center;
+}
+
+main>h2{
+    font-family: "idroid";
+    font-size: 25px;
+    font-weight: bolder;
+    color: #227747;
+    background-image: linear-gradient(to right,#31ad69d8,#8ce0b283,#d1f0df34);
+    margin: 0px 15px 0px 15px;
+    padding: 0px 5px 0px 5px;
+}
+
+main>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 1px 20px 1px 20px;
+    text-indent: 40px;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8" ;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* 
+    medidas absolutas
+    cm mm in px pt pc
+
+
+    medidas relativas
+    em ex rem vw vh %
+    
+    peso da font (weight)
+    lighter normal bold bolder
+
+    weight -> Peso
+    width -> largura 
+    height -> altura
+
+    
+    */
+}
+
+h1 {
+    /*
+    Shorhand font
+    font style -> font weight -> font size -> font family 
+    Na seguinte ordem
+
+    font-style: italic
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    em uma linha so fica short hand  como abaixo
+
+    */
+    font: italic bolder 48px arial,sans-serif;
+
+}
+
+h2 {
+    font:italic bolder 48px arial,sans-serif;
+
+}
+
+p {
+    font: normal bold 16px arial,sans-serif;
+}
