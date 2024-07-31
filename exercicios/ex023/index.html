@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
-    
+    <!--
+    Hierarquia de tabelas (simples)
+    Table = tabela
+       Table Row = Linha de tabela
+          Table HEADER = cabecalho de tabela
+          Table DATA = dados de tabela
+    -->
+    <table>
+        <tr><!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+
+        </tr>
+        <tr><!--Segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha"><!--Terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr><!--Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td class="dado">C4</td>
+        </tr>
+        <tr><!--Quinta linha-->
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr><!--Sexta linha-->
+            <td>A6</td>
+        </tr>
+
+    </table>
 </body>
 </html>
