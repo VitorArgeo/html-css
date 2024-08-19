@@ -7,6 +7,13 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top:-1px;
+    background-color: gray;
 }
 
 td,th {
@@ -19,9 +26,6 @@ tbody > tr:nth-child(odd) /*--2n-1--*/ {
 tbody > tr:nth-child(even)/*--2n--*/ {
     background-color: rgba(75, 74, 73, 0.397);
 }
-
-
-
 
 caption{
     font-size: 1.5em;
